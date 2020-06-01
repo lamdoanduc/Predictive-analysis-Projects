@@ -1,6 +1,6 @@
 # Titanic data set and the logistic Regression model
 
-The dataset is  from the [Titanic Data Set from Kaggle](https://www.kaggle.com/c/titanic). Using Logistic regression model to to predict a classification- survival or deceased.
+The dataset is  from the [Titanic Data Set from Kaggle](https://www.kaggle.com/c/titanic). Using Logistic regression model to to predict a classification- survival or deceased. The exploratory data analysis and model setup are presented in the *.ypynb file
 
 ## The model predictions vs reality
 
