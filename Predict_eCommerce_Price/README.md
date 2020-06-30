@@ -30,7 +30,7 @@ The distribution of the defference between the predicted price and the real valu
 ## Feature importances 
 The summary of feature importances is shown in the below plot. 
 
-<img align="center" width="100" height="100" src="https://github.com/lamdoanduc/Machine-Learning-Projects/blob/master/Predict_eCommerce_Price/plots/results_2.png">
+<img align="center" width="300" height="300" src="https://github.com/lamdoanduc/Machine-Learning-Projects/blob/master/Predict_eCommerce_Price/plots/results_2.png">
 
 
 
