@@ -22,8 +22,8 @@ The EDA and modeling were performed in Python 3 with Jupyter Notebook. The flowi
 ## Results
 
 ## Cross validation score
-The final model got the cross validation score is aabout 0.7. 
-The distribution of the defference between the predicted price and the real values is shown in the lelf-hand side plot. The right-hand side scatter-plot shows the prediction vs the reality.
+The final model got the cross-validation score is about 0.7. 
+The distribution of the difference between the predicted price and the real values is shown in the left-hand side plot. The right-hand side scatter-plot shows the prediction vs the reality.
 
 ![Image description](https://github.com/lamdoanduc/Machine-Learning-Projects/blob/master/Predict_eCommerce_Price/plots/results_1.png)
 
