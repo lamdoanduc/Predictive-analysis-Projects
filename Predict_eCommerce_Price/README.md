@@ -23,7 +23,7 @@ The EDA and modeling were performed in Python 3 with Jupyter Notebook. The flowi
 
 ## The reasons for the calls
 
-![Image description](https://github.com/lamdoanduc/911-Calls/blob/master/Plots/fig_countplot_reason_1.png)
+![Image description](https://github.com/lamdoanduc/Machine-Learning-Projects/blob/master/Predict_eCommerce_Price/plots/results_1.png)
 
 ## Charts showing number of calls by Month, Day of Week highlighted by Reason column
 
