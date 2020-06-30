@@ -1,6 +1,6 @@
 # Precdict eCommerce price
 ## Goal
-The blooming of eCommerce platforms over the last 2 decades makes the market become very competitive. To dominate the market they must provide customer goods at a lower price. This project uses the data from an e-commerce platform to predict the goods price based on given features in the data. 
+The blooming of eCommerce platforms over the last 2 decades makes the market become very competitive. To dominate the market they must provide customer with goods at a lower price. This project uses the data from an e-commerce platform to predict the goods price based on given features in the data. 
 
 ## Data
 The data contains contains 2452 observations with 7 columns (features) and a target variable, _Selling_price_. The data is originally from _Machinehack_ hackathon. 
