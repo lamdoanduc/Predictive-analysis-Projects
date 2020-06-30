@@ -1,19 +1,24 @@
-# 911-Calls
-The project analyses calls to 911, i.e., what is the most reason of the calls, what high time people call 911, etc. The project also visualises the dataset using Seaborn and Bult-in Pandas tools. The dataset is from [Kaggle](https://www.kaggle.com/mchirico/montcoalert). 
+# Precdict eCommerce price
+## Goal
+The blooming of eCommerce platforms over the last 2 decades makes the market become very competitive. To dominance the market they must provide customer goods at a lower price. This project uses the data from an e-commerce platform to predict the goods price based on given features in the data. 
 
-# Project report
+## Data
+The data contains contains 2452 observations with 7 columns (features) and a target variable, _Selling_price_. The data is originally from _Machinehack_ hackathon. 
 
-The data contains the following fields:
+## Method
+The exploratory data analysis (EDA) showed a highly skewed distribution of the selling price. The selling price was then transformed into a logarithmic scale. I did feature engineering as following:
+    - using Date column to create: Day of Week, Month, Quarter, etc
+    - using groupby function and statical method, for example, Rating column, number of unique items at each brand, category
+    - encoding some features
+I used XGBRegressor model to predict the target. XGBoost is a decision-tree-based ensemble Machine Learning algorithm. It uses a gradient boosting framework. 
 
-* lat : String variable, Latitude
-* lng: String variable, Longitude
-* desc: String variable, Description of the Emergency Call
-* zip: String variable, Zipcode
-* title: String variable, Title
-* timeStamp: String variable, YYYY-MM-DD HH:MM:SS
-* twp: String variable, Township
-* addr: String variable, Address
-* e: String variable, Dummy variable (always 1)
+## Requirement
+The EDA and modeling were performed in Python 3 with Jupyter Notebook. The flowing is some necessary libraries, packages:
+   - Pandas, numpy
+   - Matplotlib, seaborn
+   - Sklearn, xgboost.
+   
+## Results
 
 ## The reasons for the calls
 
