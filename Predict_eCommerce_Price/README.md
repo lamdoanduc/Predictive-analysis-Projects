@@ -7,9 +7,10 @@ The data contains contains 2452 observations with 7 columns (features) and a tar
 
 ## Method
 The exploratory data analysis (EDA) showed a highly skewed distribution of the selling price. The selling price was then transformed into a logarithmic scale. I did feature engineering as following:
-    - using Date column to create: Day of Week, Month, Quarter, etc
-    - using groupby function and statical method, for example, Rating column, number of unique items at each brand, category
-    - encoding some features
+- using Date column to create: Day of Week, Month, Quarter, etc
+- using groupby function and statical method, for example, Rating column, number of unique items at each brand, category
+- encoding some features
+
 I used XGBRegressor model to predict the target. XGBoost is a decision-tree-based ensemble Machine Learning algorithm. It uses a gradient boosting framework. 
 
 ## Requirement
