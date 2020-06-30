@@ -21,24 +21,16 @@ The EDA and modeling were performed in Python 3 with Jupyter Notebook. The flowi
    
 ## Results
 
-## The reasons for the calls
+## Cross validation score
+The final model got the cross validation score is aabout 0.7. 
+The distribution of the defference between the predicted price and the real values is shown in the lelf-hand side plot. The right-hand side scatter-plot shows the prediction vs the reality.
 
 ![Image description](https://github.com/lamdoanduc/Machine-Learning-Projects/blob/master/Predict_eCommerce_Price/plots/results_1.png)
 
-## Charts showing number of calls by Month, Day of Week highlighted by Reason column
+## Feature importances 
+The summary of feature importances is shown in the below plot. 
 
-![Image description](https://github.com/lamdoanduc/911-Calls/blob/master/Plots/calls_by_time.png)
+![Image description](https://github.com/lamdoanduc/Machine-Learning-Projects/blob/master/Predict_eCommerce_Price/plots/results_2.png)
 
-## Linear Fit showing number of calls by month: groupby data by Month, then using count() funtion
-
-![Image description](https://github.com/lamdoanduc/911-Calls/blob/master/Plots/Number_of_calls_by_Month.png)
-
-## Number of calls by days for the entire period
-
-![Image description](https://github.com/lamdoanduc/911-Calls/blob/master/Plots/Number_of_calls_by_time.png)
-
-## The cluster shows high time of 911 calls
-
-![Image description](https://github.com/lamdoanduc/911-Calls/blob/master/Plots/heatmap.png)
 
 
