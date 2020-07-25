@@ -12,7 +12,7 @@
 
 ### 1.2. Predictive analysis
 
-There are customers who add products to carts but they removed the products from the carts or logged out without further processing. The customers don't complete the purchases. I try to create a LM model to predict whether the customers will complete the purchases after adding products to carts.
+There are some customers who added products to carts but they removed the products from the carts or logged out without further processing. The customers didn't complete the purchases. I try to create a LM model to predict whether a customer would complete the purchases after adding products to carts.
 
 ## 2. Data
 
