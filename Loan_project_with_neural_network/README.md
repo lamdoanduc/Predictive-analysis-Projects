@@ -1,13 +1,26 @@
-GAME_OF_LIFE This is course project for Advanced Scientific Programming in Python - Uppsala University
+# Loan default detection using Neural network
+## Our Goal
 
-The python scripts for the game is under game_of_life/init.py
+    A model can predict wether or not a borrower will pay back his/her loan. The model is trained with a given historical data that has information on whether or not the borrowers defaulted. The model can be used in the future to assess if a new customer is likely to pay back the loan.
 
-The game_of_life package is on the PYPI page: https://pypi.org/project/gameoflife-lam/
+## Method
 
-To install the package: >>> pip install gameoflife-lam
+    A deep neural network is used to address the problem. Since the data is imbalanced, it will be resampled (both under-sampled and over-sampled) to get better results of prediction. A random forest model is also performed for a comparison.
 
-To run the game in python: 
-                            >>> import game_of_life 
-                            >>> game_of_life.run()
+## Results
 
-User can choose the grid size, number of genarations, and the initial pattern (a cross-shaped pattern or a random pattern)
+    A deep neural network with a early stop method and Dropout shows a good performance.
+    Resampling the imbalanced data helps to improve the prediction on the minor class (class with a small number of observations).
+    A random forest model also performs well in this imbalanced dataset. However it underperforms the newral network trained by resampled data.
+
+## Work flow
+
+    First, exploratory data analysis
+    Handle the missing data
+    Feature engineering
+    Data prepossessing
+    Train and evaluate a deep neural network
+    Tune the model with resampled data
+    Train a random forest model for a comparison.
+
+
