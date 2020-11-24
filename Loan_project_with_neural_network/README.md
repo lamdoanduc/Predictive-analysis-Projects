@@ -11,12 +11,12 @@ Resampling the imbalanced data helps to improve the prediction on the minor clas
 A random forest model also performs well in this imbalanced dataset. However it underperforms the newral network trained by resampled data.
 
 ## Work flow
-First, exploratory data analysis
-Handle the missing data
-Feature engineering
-Data prepossessing
-Train and evaluate a deep neural network
-Tune the model with resampled data
-Train a random forest model for a comparison.
+* First, exploratory data analysis
+* Handle the missing data
+* Feature engineering
+* Data prepossessing
+* Train and evaluate a deep neural network
+* Tune the model with resampled data
+* Train a random forest model for a comparison.
 
 
