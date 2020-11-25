@@ -1,4 +1,4 @@
-# Exploring an Ecommerce Dataset exported from Google Analytics
+# Investigating customer behavior on Google Merchandise Store website using the Google Analytics dataset
 
 ## 1. Goals
 ### 1.1. Exploratory data analysis
