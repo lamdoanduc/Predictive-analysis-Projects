@@ -16,4 +16,4 @@
 ## Results
 * The ML models showed very promising results on the test datasets. They can even detect some minor class attack. Overall, the Random forest model performed better compared to the two others in the dataset.
 
-Click [the link](https://github.com/lamdoanduc/Predictive-analysis-Projects/blob/master/Network_intrusion_detector/code.ipynb) for the code.
+Click the link [here](https://github.com/lamdoanduc/Predictive-analysis-Projects/blob/master/Network_intrusion_detector/code.ipynb) for the code.
